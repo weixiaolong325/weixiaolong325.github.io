@@ -1,0 +1,164 @@
+﻿#div_Intro {
+    /*height: 500px;*/
+    width: 100%;
+}
+
+#memu_left {
+    position: absolute;
+    float: left;
+    width: 200px;
+    /*height: 100%;*/
+}
+
+#div_IntroInfo {
+    left: 220px;
+    width: 95%;
+    min-width: 300px;
+    padding: 10px;
+    min-height: 300px;
+    position: relative;
+    float: left;
+    word-wrap: break-word;
+}
+
+#div_Intro_head {
+    height: 73px;
+    border-bottom: 1px solid #d8d4d4;
+    line-height: 73px;
+    font-size: 16px;
+    position: relative;
+}
+
+.memun_right > li + li:before {
+    color: #CCCCCC;
+    content: "> ";
+    padding: 0 5px;
+}
+
+.memun_right > li {
+    float: left;
+    height: 30px;
+    font-size: 12px;
+}
+
+.memun_right {
+    list-style-type: none;
+}
+
+#div_head_right {
+    position: relative;
+    float: left;
+    text-align: left;
+    height: 100%;
+    width: 50%;
+}
+/*Intro*/
+#div_head_left {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#div_Intro_body {
+    word-wrap: break-word;
+    width: 75%;
+    min-width: 300px;
+    position: relative;
+}
+
+#txt {
+    width: 100%;
+    height: 410px;
+    border: 0px;
+}
+
+    #ul_Intro > li {
+        position: relative;
+        float: left;
+        width: 30%;
+        height: 250px;
+        margin-left:5px;
+        margin-bottom:5px;
+        border: 1px solid #d8d4d4;
+        box-sizing: border-box;
+    }
+.clearfloat {
+clear:left;
+}
+/*.div_intro {
+        border: 1px solid #0094ff;
+        width:100%;
+        margin:2px 4px 2px 2px;
+        height:100%;
+        box-sizing:border-box ;
+}*/
+.div_intro1 {
+    width: 100%;
+    height: 75%;
+    box-sizing: border-box;
+    margin:0 auto;
+    text-align:center;
+}
+.div_intro2 {
+     width: 100%;
+    height: 12.5%;
+    box-sizing: border-box;
+}
+.img_intro {
+width:95%;
+height:95%;
+}
+.div_intro2_1 {
+width:100%;
+height:100%;
+text-align:center;
+
+}
+.div_intro2_2 {
+width:100%;
+height:100%;
+text-align:left;
+color:#00ff21;
+}
+
+/*ContactUs*/
+#div_body_left {
+    position: relative;
+    float: left;
+    width: 75%;
+    height: 100%;
+    text-align: center;
+    line-height: 300px;
+}
+
+#div_body_right {
+    position: relative;
+    float: left;
+    text-align: left;
+    height: 100%;
+    width: 25%;
+}
+
+#img_ContactUs {
+    margin: 0px auto;
+}
+/*后台ProductDisplay*/
+#div_doing {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    border-bottom: 1px dashed #CCCCCC;
+    box-sizing: border-box;
+}
+
+.img_product {
+    width: 100px;
+    height: 100px;
+}
+
+#tb_product td {
+    text-align: left;
+    height: 100px;
+    vertical-align: middle !important;
+}

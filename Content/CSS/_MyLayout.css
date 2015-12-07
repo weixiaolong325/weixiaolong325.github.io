@@ -1,0 +1,75 @@
+﻿body {
+    color: rgb(51, 51, 51);
+display: block;
+font-family: 'Microsoft YaHei', Tahoma, Verdana, Simsun;
+font-size: 14px;
+font-stretch: normal;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+height: auto;
+line-height: 25.2px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+}
+#head_top {
+height:36px;
+background-color:#585656;
+line-height:36px;
+}
+#head_logo {
+height:90px;
+line-height:90px;
+}
+#web_logo {
+    height:60px;
+    width:90px;
+    margin:0px 5px 15px 10px;
+}
+.txt_logo {
+font-size:24px;
+}
+.nav_txt {
+    font-family: 'Microsoft YaHei', Tahoma, Verdana, Simsun;
+font-size: 16px;
+}
+@keyframes myfirst
+{
+from {opacity:0;}
+to {opacity:1;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {opacity:0;}
+to {opacity:1;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {opacity:0;}
+to {opacity:1;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+
+}
+
+#div_biaoyu {
+    height:120px;
+    margin-bottom:10px;
+     animation:myfirst 2s;
+-moz-animation:myfirst 2s; /* Firefox */
+-webkit-animation:myfirst 2s /* Safari and Chrome */
+}
+#img_biaoyu {
+height:120px;
+
+}

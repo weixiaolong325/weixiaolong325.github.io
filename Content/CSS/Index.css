@@ -1,0 +1,18 @@
+﻿body {
+}
+.nav_txt {
+    font-family: 'Microsoft YaHei', Tahoma, Verdana, Simsun;
+font-size: 16px;
+}
+#body_img {
+height:490px;
+width:650px;
+margin:0px auto ;
+}
+.img_lenovo {
+height:490px;
+width:650px;
+}
+#div_body {
+background-color:#808080;
+}
